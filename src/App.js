@@ -1,19 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-import {Button} from '@mui/material'
-// import Button from '@mui/material/Button'
+import MuiButton from "./components/MuiButton";
+
 
 function App() {
   return (
-  <>
-    <h1>Installation of MUI</h1>
-    <button>Submit me</button>
-    <Button>MUI Button</Button>
-    <Button variant="text">Text</Button>
-<Button variant="contained">Contained</Button>
-<Button variant="outlined">Outlined</Button>
-  </>
+    <>
+    <MuiButton />
+    </>
   );
 }
 
 export default App;
+/*
+Topic to cover:
+1. How to use button?
+2. Add color & background color to button
+3. Add Border to button
+4. Handle Click button
+5. Icon with button
+6. Button Size
+7. Disabled button
+8. Icon Button
+9. Loading button
+
+Color:
+primary: blue
+secondary: pink
+success: green
+error: red
+*/
