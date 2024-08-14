@@ -1,12 +1,12 @@
 import MuiButton from "./components/MuiButton";
 import MuiButtonGroup from "./components/MuiButtonGroup";
+import MuiCheckbox from "./components/MuiCheckbox";
 
 
 function App() {
   return (
     <>
-    {/* <MuiButton /> */}
-    <MuiButtonGroup />
+    <MuiCheckbox />
     </>
   );
 }
